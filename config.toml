@@ -1,4 +1,4 @@
-baseurl = "https://thr3z.github.io/cloudblocks-storage-docs/"
+baseurl = "/"
 languageCode = "en-us"
 title = "CloudBlocks Storage Platform Admin Guide"
 theme = "hugo-material-docs"
