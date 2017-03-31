@@ -1,0 +1,109 @@
+baseurl = "https://thr3z.github.io/cloudblocks-storage-docs/"
+languageCode = "en-us"
+title = "CloudBlocks Storage Platform Admin Guide"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+	# General information
+	author = "threz_sumagang"
+	description = "Amihan Documentations"
+	copyright = "Amihan Global Solutions"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = ""
+
+	version = "1.0.0"
+	logo = "images/cb.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = [
+    "foo.css",
+    "bar.css"
+  ]
+	custom_js  = ["buzz.js"]
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "teal"
+    	accent  = "teal"
+
+    [params.font]
+    	text = "Open Sans"
+    	code = "Ubuntu Mono"
+
+[social]
+	twitter = ""
+	github  = "threz_sumagang"
+	email   = "hello@email.com"
+
+[[menu.main]]
+	name   = "Overview"
+	url    = "/"
+	weight = 5
+
+[[menu.main]]
+	name   = "Accessing CloudBlocks Storage"
+	url    = "accessing-cloudblocks-storage/"
+	weight = 10
+
+
+[[menu.main]]
+	name   = "Dashboard"
+	url    = "dashboard/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Nodes"
+	url    = "nodes/"
+	weight = 30
+
+[[menu.main]]
+	name   = "Pools"
+	url    = "pools/"
+	weight = 40
+
+[[menu.main]]
+	name   = "Block Storage"
+	url    = "block-storage/"
+	weight = 50
+
+[[menu.main]]
+	name   = "Object Storage"
+	url    = "object-storage/"
+	weight = 60
+
+[[menu.main]]
+	name   = "Filesystem"
+	url    = "filesystem/"
+	weight = 70
+
+[[menu.main]]
+	name   = "Dataservices"
+	url    = "data-services/"
+	weight = 80
+
+[[menu.main]]
+	name   = "Logs"
+	url    = "logs/"
+	weight = 90
+
+[[menu.main]]
+	name   = "Glossary"
+	url    = "glossary/"
+	weight = 100
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Block-storages on CloudBlocks Storage Platform Admin Guide</title>
+    <link>https://thr3z.github.io/cloudblocks-storage-docs/block-storage/index.xml</link>
+    <description>Recent content in Block-storages on CloudBlocks Storage Platform Admin Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Amihan Global Solutions</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 20:08:11 +0100</lastBuildDate>
+    <atom:link href="https://thr3z.github.io/cloudblocks-storage-docs/block-storage/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Block Storage</title>
+      <link>https://thr3z.github.io/cloudblocks-storage-docs/block-storage/</link>
+      <pubDate>Wed, 09 Mar 2016 20:08:11 +0100</pubDate>
+      
+      <guid>https://thr3z.github.io/cloudblocks-storage-docs/block-storage/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Block Storage&lt;/strong&gt; is a type of data storage typically used in storage-area network (SAN) environments where data is stored in units referred to as blocks. This is the typical native storage interface of most storage media at the driver level. Block Storage offers better performance and speed than file level storage systems. Each block volume can be treated as an independent disk drive and controlled by external Server OS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/blockstorage_page.png&#34; alt=&#34;blockstorage_page&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;create-a-block-device&#34;&gt;Create a Block Device&lt;/h2&gt;
+
+&lt;p&gt;To create a block device, follow these steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Click the create button on the upper right corner of the page. The &lt;em&gt;Create Block Device&lt;/em&gt; window displays.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/create_block_device.png&#34; alt=&#34;create_block_device&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter the name of the block device, select a pool from the drop-down menu, and specify the size.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/create_block_device2.png&#34; alt=&#34;create_block_device2&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click &lt;strong&gt;Create&lt;/strong&gt; to create the new block storage.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;view-block-device-info&#34;&gt;View Block Device Info&lt;/h2&gt;
+
+&lt;p&gt;To view block info, follow the steps below.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select a block device from the list. Click the icon to the right and select &lt;strong&gt;Info&lt;/strong&gt;.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/block_device_details.png&#34; alt=&#34;block_device_details&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The &lt;em&gt;Block Device Details&lt;/em&gt; window displays. You can close the window by clicking anywhere in the page.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/block_device_details2.png&#34; alt=&#34;iops&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;resize-a-block-device&#34;&gt;Resize a Block Device&lt;/h2&gt;
+
+&lt;p&gt;To resize a block device, follow these steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Click the icon to the right and select &lt;strong&gt;Resize&lt;/strong&gt;. The &lt;em&gt;Resize Block Device&lt;/em&gt; window displays.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/resize_block_device.png&#34; alt=&#34;resize_block_device&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Specify the new size of the device and click &lt;strong&gt;Resize&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; After resizing the Block Device it will also need to be resized in the mounted operating system in order to access the new space (&lt;code&gt;xfs_growfs&lt;/code&gt; is one such tool for xfs filesystems).
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/resize_block_device2.png&#34; alt=&#34;resize_block_device2&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;delete-a-block-device&#34;&gt;Delete a Block Device&lt;/h2&gt;
+
+&lt;p&gt;To delete a block device, follow the steps below.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Click the icon to the right and select &lt;strong&gt;Delete&lt;/strong&gt;. A confirmation window displays to confirm deletion.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/delete_block_device.png&#34; alt=&#34;delete_block_device&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click &lt;strong&gt;Yes&lt;/strong&gt; to confirm. Note that this action cannot be undone.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/delete_block_device2.png&#34; alt=&#34;delete_block_device2&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

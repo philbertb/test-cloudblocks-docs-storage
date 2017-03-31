@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filesystems on CloudBlocks Storage Platform Admin Guide</title>
+    <link>https://thr3z.github.io/cloudblocks-storage-docs/filesystem/index.xml</link>
+    <description>Recent content in Filesystems on CloudBlocks Storage Platform Admin Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Amihan Global Solutions</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 20:08:11 +0100</lastBuildDate>
+    <atom:link href="https://thr3z.github.io/cloudblocks-storage-docs/filesystem/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Filesystem</title>
+      <link>https://thr3z.github.io/cloudblocks-storage-docs/filesystem/</link>
+      <pubDate>Wed, 09 Mar 2016 20:08:11 +0100</pubDate>
+      
+      <guid>https://thr3z.github.io/cloudblocks-storage-docs/filesystem/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Ceph Filesystem&lt;/strong&gt; is a posix compliant file system that uses ceph storage cluster to store its data. The Ceph metadata server cluster provides a service that maps the directories and filenames of the filesystem to objects stored within RADOS clusters. The metadata server cluster can expand or contract, and it can rebalance the file system dynamically to distribute data evenly among cluster hosts. This ensures high performance and prevents heavy loads on specific hosts within the cluster. This is similar to file sharing systems like NFS or CIFS.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Filesystem&lt;/em&gt; page currently allows user management for access to the API but does not provide a UI to manage files.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/filesystem.png&#34; alt=&#34;filesystem&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;create-a-user&#34;&gt;Create a User&lt;/h3&gt;
+
+&lt;p&gt;To create a user, follow the steps below.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Click the create button on the upper right corner of the page. The &lt;em&gt;Create User&lt;/em&gt; window displays.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/create_fs_user.png&#34; alt=&#34;create_fs_user&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter the name of the user and specify access rights. Access rights can be &lt;em&gt;Read Only&lt;/em&gt; or &lt;em&gt;Read and Write&lt;/em&gt;.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/create_fs_user2.png&#34; alt=&#34;create_fs_user2&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click &lt;strong&gt;Create&lt;/strong&gt; to create the user. Once created, the user will be displayed on the list.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;view-user-info&#34;&gt;View User Info&lt;/h3&gt;
+
+&lt;p&gt;To view user info, follow these steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select an object storage user from the list.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the icon to the right and select &lt;strong&gt;Info&lt;/strong&gt;. The &lt;em&gt;User:&amp;lt;Name&amp;gt;&lt;/em&gt; window displays.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/filesystem_info.png&#34; alt=&#34;filesystem_info&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Follow the steps outlined in the &lt;em&gt;Quickstart Guide&lt;/em&gt;.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/filesystem_info2.png&#34; alt=&#34;filesystem_info2&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;update-user&#34;&gt;Update User&lt;/h3&gt;
+
+&lt;p&gt;To update user, follow the steps below.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select an object storage user from the list.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the icon to the right and select &lt;strong&gt;Update&lt;/strong&gt;. The &lt;em&gt;Update User:&amp;lt;Name&amp;gt;&lt;/em&gt; window displays.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/filesystem_update.png&#34; alt=&#34;filesystem_update&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Change user access rights as needed and click &lt;strong&gt;Update&lt;/strong&gt;.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/filesystem_update2.png&#34; alt=&#34;filesystem_update2&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;delete-user&#34;&gt;Delete User&lt;/h3&gt;
+
+&lt;p&gt;To delete user, follow these steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Click the icon to the right and select &lt;strong&gt;Delete&lt;/strong&gt;. A confirmation window displays to confirm deletion.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/filesystem_delete.png&#34; alt=&#34;filesystem_delete&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To confirm, click &lt;strong&gt;Yes&lt;/strong&gt;. Note that this action cannot be undone.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/filesystem_delete2.png&#34; alt=&#34;filesystem_delete2&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

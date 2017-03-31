@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data-services on CloudBlocks Storage Platform Admin Guide</title>
+    <link>https://thr3z.github.io/cloudblocks-storage-docs/data-services/index.xml</link>
+    <description>Recent content in Data-services on CloudBlocks Storage Platform Admin Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Amihan Global Solutions</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 20:08:11 +0100</lastBuildDate>
+    <atom:link href="https://thr3z.github.io/cloudblocks-storage-docs/data-services/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Data Services</title>
+      <link>https://thr3z.github.io/cloudblocks-storage-docs/data-services/</link>
+      <pubDate>Wed, 09 Mar 2016 20:08:11 +0100</pubDate>
+      
+      <guid>https://thr3z.github.io/cloudblocks-storage-docs/data-services/</guid>
+      <description>
+
+&lt;p&gt;The &lt;em&gt;Data Services&lt;/em&gt; page is a collection of files that describe a related set of Kubernetes resources. In Helm, this is commonly referred to as &lt;em&gt;charts&lt;/em&gt;. Charts contain all of the resource definitions necessary to run an application, tool, or service inside of a Kubernetes cluster. A data service might be used to deploy something simple, like a memcached pod, or something complex, like a full web app stack with HTTP servers, databases, caches, and so on.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/data_services.png&#34; alt=&#34;data_services&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;viewing-a-service&#34;&gt;Viewing a Service&lt;/h3&gt;
+
+&lt;p&gt;To view a service, follow the steps outlined below.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;From the &lt;em&gt;Data Services&lt;/em&gt; page, select a service that you wish to view.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the &lt;strong&gt;View&lt;/strong&gt; button on the right. Details of the the selected service will be displayed.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/view_dataservice.png&#34; alt=&#34;view_dataservice&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;launch-data-service&#34;&gt;Launch Data Service&lt;/h3&gt;
+
+&lt;p&gt;To launch a data service, follow these steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;From the &lt;em&gt;Data Services&lt;/em&gt; page, select a service that you wish to launch.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the &lt;strong&gt;View&lt;/strong&gt; button. Details of the the selected service will be displayed.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/view_dataservice.png&#34; alt=&#34;view_dataservice&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the &lt;strong&gt;Launch&lt;/strong&gt; button. The &lt;em&gt;Launch Data Service&lt;/em&gt; window displays.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/launch_dataservice.png&#34; alt=&#34;launch_dataservice&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select the &lt;strong&gt;Chart Version&lt;/strong&gt;, enter the &lt;strong&gt;Name&lt;/strong&gt; of the service, and select the &lt;strong&gt;Namespace&lt;/strong&gt; from the drop-down menu.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/launch_dataservice2.png&#34; alt=&#34;launch_dataservice2&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click &lt;strong&gt;Launch&lt;/strong&gt; to launch the service. When successful, the service is displayed under &lt;em&gt;Instances&lt;/em&gt; section.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;view-data-service-source&#34;&gt;View Data Service Source&lt;/h3&gt;
+
+&lt;p&gt;To view data service source, do the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;From the &lt;em&gt;Data Services&lt;/em&gt; page, select a service that you wish to launch.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the &lt;strong&gt;View&lt;/strong&gt; button. Details of the the selected service will be displayed.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/view_dataservice.png&#34; alt=&#34;view_dataservice&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the &lt;strong&gt;Sources&lt;/strong&gt; link. This opens the repo where the source files are located.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/sources_dataservice.png&#34; alt=&#34;sources_dataservice&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accessing-cloudblocks-storages on CloudBlocks Storage Platform Admin Guide</title>
+    <link>https://thr3z.github.io/cloudblocks-storage-docs/accessing-cloudblocks-storage/index.xml</link>
+    <description>Recent content in Accessing-cloudblocks-storages on CloudBlocks Storage Platform Admin Guide</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Amihan Global Solutions</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 19:56:50 +0100</lastBuildDate>
+    <atom:link href="https://thr3z.github.io/cloudblocks-storage-docs/accessing-cloudblocks-storage/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Accessing CloudBlocks Storage</title>
+      <link>https://thr3z.github.io/cloudblocks-storage-docs/accessing-cloudblocks-storage/</link>
+      <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
+      
+      <guid>https://thr3z.github.io/cloudblocks-storage-docs/accessing-cloudblocks-storage/</guid>
+      <description>
+
+&lt;p&gt;Registered users can log in to the CloudBlocks Storage using the credentials provided by the admin. Once authentication is successful, users can start utilizing the different functions and features of the Dashboard.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;logging-in&#34;&gt;Logging In&lt;/h2&gt;
+
+&lt;p&gt;To log in, perform the following steps:
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Access the CloudBlocks URL. The URL should be provided to you by the admin upon account creation.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;From the &lt;em&gt;CloudBlocks&lt;/em&gt; login page, select &lt;strong&gt;Storage&lt;/strong&gt;.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/storage2.png&#34; alt=&#34;storage2&#34; /&gt;
+&lt;br /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select your login preference. You can either choose to log in using your &lt;strong&gt;Github&lt;/strong&gt; account or &lt;strong&gt;Google&lt;/strong&gt; account.
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#34;https://thr3z.github.io/cloudblocks-storage-docs/assets/images/login_page.png&#34; alt=&#34;login_page&#34; /&gt;
+&lt;br /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;From the &lt;em&gt;Login&lt;/em&gt; page, enter the &lt;strong&gt;Email&lt;/strong&gt; in the field provided.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter your &lt;strong&gt;Password&lt;/strong&gt; in the field provided.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click &lt;strong&gt;Sign&lt;/strong&gt; in to begin.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
