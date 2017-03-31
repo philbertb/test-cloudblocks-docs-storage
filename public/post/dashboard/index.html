@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="en-us">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>Dashboard - CloudBlocks Storage Platform Admin Guide</title>
+    <meta name="generator" content="Hugo 0.19" />
+
+    
+    <meta name="description" content="Amihan Documentations">
+    
+    <link rel="canonical" href="/post/dashboard/">
+    
+    <meta name="author" content="threz_sumagang">
+    
+
+    <meta property="og:url" content="/post/dashboard/">
+    <meta property="og:title" content="CloudBlocks Storage Platform Admin Guide">
+    <meta property="og:image" content="/images/cb.png">
+    <meta name="apple-mobile-web-app-title" content="CloudBlocks Storage Platform Admin Guide">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('/fonts/icon.eot');
+        src: url('/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('/fonts/icon.woff')
+               format('woff'),
+             url('/fonts/icon.ttf')
+               format('truetype'),
+             url('/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="/stylesheets/application.css">
+    <link rel="stylesheet" href="/stylesheets/temporary.css">
+    <link rel="stylesheet" href="/stylesheets/palettes.css">
+    <link rel="stylesheet" href="/stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open%20Sans:400,700|Ubuntu&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <link rel="stylesheet" href="/foo.css">
+    
+    <link rel="stylesheet" href="/bar.css">
+    
+    <script src="/javascripts/modernizr.js"></script>
+
+    
+
+  </head>
+  <body class="palette-primary-teal palette-accent-teal">
+
+
+
+	
+	
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Dashboard
+      </div>
+    </div>
+
+    
+
+    
+    <div class="button button-github" role="button" aria-label="GitHub">
+      <a href="https://github.com/threz_sumagang" title="@threz_sumagang on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+    </div>
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="/" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="/images/cb.png">
+        </div>
+      
+      <div class="name">
+        <strong>CloudBlocks Storage Platform Admin Guide <span class="version">1.0.0</span></strong>
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="/archive/master.zip" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Overview" href="/">
+	
+	Overview
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Accessing CloudBlocks Storage" href="/accessing-cloudblocks-storage/">
+	
+	Accessing CloudBlocks Storage
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Dashboard" href="/dashboard/">
+	
+	Dashboard
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Nodes" href="/nodes/">
+	
+	Nodes
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Pools" href="/pools/">
+	
+	Pools
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Block Storage" href="/block-storage/">
+	
+	Block Storage
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Object Storage" href="/object-storage/">
+	
+	Object Storage
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Filesystem" href="/filesystem/">
+	
+	Filesystem
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Dataservices" href="/data-services/">
+	
+	Dataservices
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Logs" href="/logs/">
+	
+	Logs
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Glossary" href="/glossary/">
+	
+	Glossary
+</a>
+
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+        <hr>
+        <span class="section">The author</span>
+        
+        <ul>
+          
+
+          
+          <li>
+            <a href="https://github.com/threz_sumagang" target="_blank" title="@threz_sumagang on GitHub">
+              @threz_sumagang on GitHub
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="mailto:hello@email.com" title="Email of hello@email.com">
+              Contact via email
+            </a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			<h1>Dashboard </h1>
+
+			
+
+<p>The first tab you will see in the CloudBlocks Storage is the <strong>Dashboard</strong>. It displays an overview of the Acaleph storage cluster by providing a visual representation of MONS, OSDs, and Node status, the amount of storage used, pools that uses the most data, and the input/output performance measurement. These features are explained in the next few sections below.</p>
+
+<p><img src="/assets/images/dashboard.png" alt="dashboard" /></p>
+
+<h4 id="extend-menu-view">Extend Menu View</h4>
+
+<p>Clicking the CloudBlocks logo on the upper left corner of the page extends the menus for better navigation. Clicking it again hides the menus but displays its corresponding icons.</p>
+
+<p><img src="/assets/images/extend_dashboard.png" alt="extend_dashboard" /></p>
+
+<h2 id="ceph-health">Ceph Health</h2>
+
+<p>This column monitors the health and status of the disks and alerts you for any warnings or errors, if any.</p>
+
+<p><img src="/assets/images/ceph_health.png" alt="ceph_health" /></p>
+
+<h2 id="storage-used">Storage Used</h2>
+
+<p>This column of the Dashboard tab displays the amount of storage used in the system. The storage data is displayed in percent. Total number of disks are displayed in Gigabyte (GB) or Terabyte (TB).</p>
+
+<p><img src="/assets/images/storage_used.png" alt="storage_used" /></p>
+
+<h2 id="io">IO</h2>
+
+<p>The IO (Input/Output) graph is a performance measurement showing the amount of data bandwidth (in MB/s) being used by clients for reading or writing and any ongoing data recovery.</p>
+
+<p><img src="/assets/images/iops.png" alt="iops" /></p>
+
+<h2 id="largest-pools">Largest Pools</h2>
+
+<p>The Largest Pools column displays the top three pools that have the most data.</p>
+
+<p><img src="/assets/images/largest_pool.png" alt="largest_pool" /></p>
+
+<h2 id="nodes">Nodes</h2>
+
+<p>This column provides an overview of the number of nodes available in the Acaleph cluster. This column also shows the health of each node, which changes when a node has errors or warnings. Clicking a node opens the <em>Nodes</em> page and display a more detailed overview of the selected node.</p>
+
+<p><img src="/assets/images/nodes.png" alt="nodes" /></p>
+
+<h2 id="latency">Latency</h2>
+
+<p>Latency is shows the amount of time it takes for data to be stored on a disk once it hits Ceph. This is an indicator for disks in a cluster becoming overloaded as it stores data. &lsquo;Commit latency&rsquo; is the amount of time it takes for a write to hit the journal and then get written to disk. The &lsquo;Apply Latency&rsquo; is time it takes to get from after the journal to be written to disk.</p>
+
+<p><img src="/assets/images/latency.png" alt="latency" /></p>
+
+
+			<aside class="copyright" role="note">
+				
+				&copy; 2017 Amihan Global Solutions &ndash;
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="/post/accessing-cloudblocks-storage/" title="Accessing CloudBlocks Storage">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Accessing CloudBlocks Storage
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="/post/nodes/" title="Nodes">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              Nodes
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = '';
+      var repo_id  = '';
+    
+    </script>
+
+    <script src="/javascripts/application.js"></script>
+    
+    <script src="/buzz.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
