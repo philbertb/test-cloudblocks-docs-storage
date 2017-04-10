@@ -1,4 +1,4 @@
-baseurl = "/"
+baseURL = "https://isumagang.gitlab.io/cloudblocks-storage-doc/"
 languageCode = "en-us"
 title = "CloudBlocks Storage Platform Admin Guide"
 theme = "hugo-material-docs"
@@ -25,21 +25,21 @@ googleAnalytics = ""
 
 	# Custom assets
 	custom_css = [
-    "foo.css",
-    "bar.css"
-  ]
+		"foo.css",
+		"bar.css"
+	]
 	custom_js  = ["buzz.js"]
 
 	# Syntax highlighting theme
 	highlight_css  = ""
 
 	[params.palette]
-    	primary = "teal"
-    	accent  = "teal"
+		primary = "teal"
+		accent  = "teal"
 
-    [params.font]
-    	text = "Open Sans"
-    	code = "Ubuntu Mono"
+	[params.font]
+		text = "Open Sans"
+		code = "Ubuntu Mono"
 
 [social]
 	twitter = ""
