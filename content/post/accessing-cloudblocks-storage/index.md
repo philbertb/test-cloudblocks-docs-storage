@@ -21,13 +21,13 @@ To log in, perform the following steps:
 2.	From the *CloudBlocks* login page, select **Storage**.
 <br />
 <br />
-    ![storage2](/assets/images/storage2.png)
+    ![storage2](/images/docs/storage2.png)
 <br />
 
 3.	Select your login preference. You can either choose to log in using your **Github** account or **Google** account.
 <br />
 <br />
-    ![login_page](/assets/images/login_page.png)
+    ![login_page](/images/docs/login_page.png)
 <br />
 
 4.	From the *Login* page, enter the **Email** in the field provided.
@@ -38,5 +38,5 @@ To log in, perform the following steps:
 <br />
 <br />
 
-6.	Click **Sign** in to begin.   
+6.	Click **Sign** in to begin.
 <br />

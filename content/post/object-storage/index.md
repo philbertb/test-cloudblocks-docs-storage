@@ -8,7 +8,7 @@ weight: 60
 
 The *Object Storage* page currently allows user management for access to the API but does not provide a UI to manage files in the object storage (that can be done by minio client, etc).
 
-![iops](/assets/images/object_storage.png)
+![iops](/images/docs/object_storage.png)
 
 ## Create an Object Storage User
 
@@ -17,12 +17,12 @@ To create a object storage user, follow these steps:
 1. Click the create button on the upper right corner of the page. The *Create Object Storage User* window displays.
 <br />
 <br />
-    ![iops](/assets/images/create_object_storage.png)
+    ![iops](/images/docs/create_object_storage.png)
 
 2. Enter the **User ID**, **Display Name**, and **Email** in the fields provided.
 <br />
 <br />
-    ![iops](/assets/images/create_object_storage2.png)
+    ![iops](/images/docs/create_object_storage2.png)
 
 3. Click **Create** to create the new object storage user.
 
@@ -35,12 +35,12 @@ To view object storage info, follow the steps below.
 2. Click the dotted icon to the right and select **Info**. The *Object Storage Details* window displays.
 <br />
 <br />
-    ![object_storage_details](/assets/images/object_storage_details.png)
+    ![object_storage_details](/images/docs/object_storage_details.png)
 
 3. Scroll down to view all details of the selected user.
 <br />
 <br />
-    ![object_storage_details2](/assets/images/object_storage_details2.png)
+    ![object_storage_details2](/images/docs/object_storage_details2.png)
 
 ## Update Object Storage User
 
@@ -51,12 +51,12 @@ To update object storage user, follow these steps:
 2. Click the dotted icon to the right and select **Update**. The *Update Object Storage User* window displays.
 <br />
 <br />
-    ![update_object_storage](/assets/images/update_object_storage.png)
+    ![update_object_storage](/images/docs/update_object_storage.png)
 
 3. Update the display name or email as needed. Note that the user ID cannot be changed.
 <br />
 <br />
-    ![update_object_storage2](/assets/images/update_object_storage2.png)
+    ![update_object_storage2](/images/docs/update_object_storage2.png)
 
 4. Click **Update** to save changes.
 
@@ -69,12 +69,12 @@ To manage keys, follow these steps:
 2. Click the icon to the right and select **Manage Keys**. The *Manage Keys* window displays.
 <br />
 <br />
-    ![manage_keys](/assets/images/manage_keys.png)
+    ![manage_keys](/images/docs/manage_keys.png)
 
 3. To generate S3 keys, click **Generate S3 Key**. To add Swift keys, go to *Swift Keys* tab and click **Add Swift Key**. Both keys are generated and added automatically to the list.
 <br />
 <br />
-    ![manage_keys2](/assets/images/manage_keys2.png)
+    ![manage_keys2](/images/docs/manage_keys2.png)
 
 ## Delete an Object Storage User
 
@@ -83,9 +83,9 @@ To delete an object storage user, follow the steps below.
 1. Click the icon to the right and select **Delete**. A confirmation window displays to confirm deletion.
 <br />
 <br />
-    ![delete_object_storage](/assets/images/delete_object_storage.png)
+    ![delete_object_storage](/images/docs/delete_object_storage.png)
 
 2. To confirm, click **Yes**. Note that this action cannot be undone.
 <br />
 <br />
-    ![delete_object_storage2](/assets/images/delete_object_storage2.png)
+    ![delete_object_storage2](/images/docs/delete_object_storage2.png)

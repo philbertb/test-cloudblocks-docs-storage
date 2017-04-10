@@ -8,7 +8,7 @@ weight: 70
 
 The *Filesystem* page currently allows user management for access to the API but does not provide a UI to manage files.
 
-![filesystem](/assets/images/filesystem.png)
+![filesystem](/images/docs/filesystem.png)
 
 ### Create a User
 
@@ -17,12 +17,12 @@ To create a user, follow the steps below.
 1. Click the create button on the upper right corner of the page. The *Create User* window displays.
 <br />
 <br />
-    ![create_fs_user](/assets/images/create_fs_user.png)
+    ![create_fs_user](/images/docs/create_fs_user.png)
 
 2. Enter the name of the user and specify access rights. Access rights can be *Read Only* or *Read and Write*.
 <br />
 <br />
-    ![create_fs_user2](/assets/images/create_fs_user2.png)
+    ![create_fs_user2](/images/docs/create_fs_user2.png)
 
 3. Click **Create** to create the user. Once created, the user will be displayed on the list.
 
@@ -35,12 +35,12 @@ To view user info, follow these steps:
 2. Click the icon to the right and select **Info**. The *User:\<Name>* window displays.
 <br />
 <br />
-    ![filesystem_info](/assets/images/filesystem_info.png)
+    ![filesystem_info](/images/docs/filesystem_info.png)
 
 3. Follow the steps outlined in the *Quickstart Guide*.
 <br />
 <br />
-    ![filesystem_info2](/assets/images/filesystem_info2.png)
+    ![filesystem_info2](/images/docs/filesystem_info2.png)
 
 ### Update User
 
@@ -51,12 +51,12 @@ To update user, follow the steps below.
 2. Click the icon to the right and select **Update**. The *Update User:\<Name>* window displays.
 <br />
 <br />
-    ![filesystem_update](/assets/images/filesystem_update.png)
+    ![filesystem_update](/images/docs/filesystem_update.png)
 
 3. Change user access rights as needed and click **Update**.
 <br />
 <br />
-    ![filesystem_update2](/assets/images/filesystem_update2.png)
+    ![filesystem_update2](/images/docs/filesystem_update2.png)
 
 ### Delete User
 
@@ -65,9 +65,9 @@ To delete user, follow these steps:
 1. Click the icon to the right and select **Delete**. A confirmation window displays to confirm deletion.
 <br />
 <br />
-    ![filesystem_delete](/assets/images/filesystem_delete.png)
+    ![filesystem_delete](/images/docs/filesystem_delete.png)
 
 2. To confirm, click **Yes**. Note that this action cannot be undone.
 <br />
 <br />
-    ![filesystem_delete2](/assets/images/filesystem_delete2.png)
+    ![filesystem_delete2](/images/docs/filesystem_delete2.png)

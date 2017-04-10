@@ -6,7 +6,7 @@ weight: 40
 
 **Pools** are logical groupings of data in a cluster. This data can include volumes, objects and other metadata. This tab allows pool partitions to be managed and created. This includes setting performance and replication for each pools.
 
-![pools](/assets/images/pools.png)
+![pools](/images/docs/pools.png)
 
 The Pools page has the following information:
 
@@ -27,12 +27,12 @@ To create a new pool, follow the steps outlined below.
 1. Click the create button on the upper right corner of the page. The *Create Ceph Pool* window displays.
 <br />
 <br />
-    ![create_ceph_pool](/assets/images/create_ceph_pool.png)
+    ![create_ceph_pool](/images/docs/create_ceph_pool.png)
 
 2. Click the **Show Advanced Options** check box to display all other options. Enter the name of the pool, number of PGs, specify replication size, and the minimum size of the pool.
 <br />
 <br />
-    ![create_ceph_pool2](/assets/images/create_ceph_pool2.png)
+    ![create_ceph_pool2](/images/docs/create_ceph_pool2.png)
 
 3. Click **Create** to create the new pool.
 
@@ -43,17 +43,17 @@ To view pool information, follow these steps:
 1. Select a pool from the list and click the dotted icon to the right.
 <br />
 <br />
-    ![pool_details0](/assets/images/pool_details0.png)
+    ![pool_details0](/images/docs/pool_details0.png)
 
 2. Select **Info** from the drop-down menu. The *Pool Details* window displays.
 <br />
 <br />
-    ![pool_details](/assets/images/pool_details.png)
+    ![pool_details](/images/docs/pool_details.png)
 
 3.  Review the pool details. Close the window by clicking anywhere in the page.
 <br />
 <br />
-    ![pool_details2](/assets/images/pool_details2.png)
+    ![pool_details2](/images/docs/pool_details2.png)
 
 ## Rename Pool
 
@@ -62,12 +62,12 @@ To rename a pool, follow the steps below.
 1. Click the icon to the right and select **Rename**. The *Rename Pool* window displays.
 <br />
 <br />
-    ![rename_pool](/assets/images/rename_pool.png)
+    ![rename_pool](/images/docs/rename_pool.png)
 
 2. Enter the new name and click **Rename**.
 <br />
 <br />
-    ![rename_pool2](/assets/images/rename_pool2.png)
+    ![rename_pool2](/images/docs/rename_pool2.png)
 
 ## Set Pool Quota
 
@@ -76,12 +76,12 @@ To set a pool quota, follow the steps below.
 1. Click the icon to the right and select **Set Quota**. The *Set Pool Quota* window displays.
 <br />
 <br />
-    ![set_pool_quota](/assets/images/set_pool_quota.png)
+    ![set_pool_quota](/images/docs/set_pool_quota.png)
 
 2. Specify the quota in the field provided and click **Set Quota**.
 <br />
 <br />
-    ![set_pool_quota2](/assets/images/set_pool_quota2.png)
+    ![set_pool_quota2](/images/docs/set_pool_quota2.png)
 
 ## Delete Pool
 
@@ -90,9 +90,9 @@ To delete a pool, follow these steps:
 1. Click the icon to the right and select **Delete**. A confirmation window displays to confirm deletion.
 <br />
 <br />
-    ![delete_pool](/assets/images/delete_pool.png)
+    ![delete_pool](/images/docs/delete_pool.png)
 
 2. Click **Yes** to confirm. Note that this action cannot be undone.
 <br />
 <br />
-    ![delete_pool2](/assets/images/delete_pool2.png)
+    ![delete_pool2](/images/docs/delete_pool2.png)

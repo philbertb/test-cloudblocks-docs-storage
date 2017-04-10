@@ -24,11 +24,11 @@ googleAnalytics = ""
 	permalink = "#"
 
 	# Custom assets
-	custom_css = [
-		"foo.css",
-		"bar.css"
-	]
-	custom_js  = ["buzz.js"]
+	# custom_css = [
+	# 	"foo.css",
+	# 	"bar.css"
+	# ]
+	# custom_js  = ["buzz.js"]
 
 	# Syntax highlighting theme
 	highlight_css  = ""
