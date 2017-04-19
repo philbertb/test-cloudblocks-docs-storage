@@ -1,7 +1,7 @@
 ---
 date: 2016-03-09T20:08:11+01:00
 title: Data Services
-weight: 80
+draft: true
 ---
 
 The *Data Services* page is a collection of files that describe a related set of Kubernetes resources. In Helm, this is commonly referred to as *charts*. Charts contain all of the resource definitions necessary to run an application, tool, or service inside of a Kubernetes cluster. A data service might be used to deploy something simple, like a memcached pod, or something complex, like a full web app stack with HTTP servers, databases, caches, and so on.
