@@ -9,7 +9,6 @@ googleAnalytics = ""
 
 [params]
 	# General information
-	author = "threz_sumagang"
 	description = "Amihan Documentations"
 	copyright = "Amihan Global Solutions"
 
@@ -17,7 +16,7 @@ googleAnalytics = ""
 	provider = "GitHub"
 	repo_url = ""
 
-	version = "1.0.0"
+	version = "1.1.0"
 	logo = "images/cb.png"
 	favicon = ""
 
@@ -38,13 +37,8 @@ googleAnalytics = ""
 		accent  = "teal"
 
 	[params.font]
-		text = "Open Sans"
+		text = "Roboto Light"
 		code = "Ubuntu Mono"
-
-[social]
-	twitter = ""
-	github  = "threz_sumagang"
-	email   = "hello@email.com"
 
 [[menu.main]]
 	name   = "Overview"
@@ -88,19 +82,9 @@ googleAnalytics = ""
 	weight = 70
 
 [[menu.main]]
-	name   = "Dataservices"
-	url    = "/post/data-services/"
-	weight = 80
-
-[[menu.main]]
-	name   = "Logs"
-	url    = "/post/logs/"
-	weight = 90
-
-[[menu.main]]
 	name   = "Glossary"
 	url    = "/post/glossary/"
-	weight = 100
+	weight = 80
 
 [blackfriday]
 	smartypants	= true
