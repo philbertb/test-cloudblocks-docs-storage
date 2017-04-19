@@ -1,7 +1,7 @@
 ---
 date: 2016-03-09T20:08:11+01:00
 title: Glossary
-weight: 100
+weight: 80
 ---
 
 ***Buckets*** <br> A node in the CRUSH hierarchy, i.e. a location or a piece of physical hardware.
