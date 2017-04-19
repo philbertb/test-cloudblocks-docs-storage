@@ -1,0 +1,16 @@
+.palette-primary-teal .footer,
+.palette-primary-teal .header,
+.palette-accent-teal .repo a,
+.palette-primary-teal {
+  background: #3A8AB2;
+}
+
+.palette-primary-teal .article a,
+.palette-primary-teal .article code,
+.palette-primary-teal .article h1,
+.palette-primary-teal .article h2,
+.palette-primary-teal .drawer .toc a.current,
+.palette-primary-teal .drawer .toc a:focus,
+.palette-primary-teal .drawer .toc a:hover {
+  color: #49A4B9;
+}
