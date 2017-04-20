@@ -10,7 +10,7 @@ The *Filesystem* page currently allows user management for access to the API but
 
 ![filesystem](/images/docs/filesystem.png)
 
-### Create a User
+## Create a User
 
 To create a user, follow the steps below.
 
@@ -26,7 +26,7 @@ To create a user, follow the steps below.
 
 3. Click **Create** to create the user. Once created, the user will be displayed on the list.
 
-### View User Info
+## View User Info
 
 To view user info, follow these steps:
 
@@ -42,7 +42,7 @@ To view user info, follow these steps:
 <br />
     ![filesystem_info2](/images/docs/filesystem_info2.png)
 
-### Update User
+## Update User
 
 To update user, follow the steps below.
 
@@ -58,7 +58,7 @@ To update user, follow the steps below.
 <br />
     ![filesystem_update2](/images/docs/filesystem_update2.png)
 
-### Delete User
+## Delete User
 
 To delete user, follow these steps:
 
