@@ -8,7 +8,7 @@ weight: 30
 
 ![nodes_page](/images/docs/nodes_page.png)
 
-# Nodes List
+## Nodes List
 
 At first glance, you will notice that the *Nodes* tab has two sections. The upper section displays all the resources available in the Acaleph cluster.
 
@@ -39,7 +39,7 @@ The *Filter* feature allows you to sort out and display specific node based on a
 
 ![filter_by_label](/images/docs/filter_by_label.png)
 
-# Node Full Details
+## Node Full Details
 
 Selecting a node in the *Nodes* page displays all its available resources in full detail. This page consists of graphs and other useful information to help simplify monitoring of OSDs in each node. Since data is collected over time and may be too large to visualize as a whole, the graphs provide a way to report data in a concise and meaningful way.
 
