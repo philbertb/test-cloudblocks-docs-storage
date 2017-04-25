@@ -8,7 +8,7 @@ The first tab you will see in the CloudBlocks Storage is the **Dashboard**. It d
 
 ![dashboard](/images/docs/dashboard.png)
 
-#### Extend Menu View
+### Extend Menu View
 
 Clicking the CloudBlocks logo on the upper left corner of the page extends the menus for better navigation. Clicking it again hides the menus but displays its corresponding icons.
 
