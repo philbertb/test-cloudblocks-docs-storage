@@ -46,43 +46,43 @@ googleAnalytics = ""
 
 [[menu.main]]
 	name   = "Accessing CloudBlocks Storage"
-	url    = "/post/accessing-cloudblocks-storage/"
+	url    = "accessing-cloudblocks-storage/"
 	weight = 10
 
 
 [[menu.main]]
 	name   = "Dashboard"
-	url    = "/post/dashboard/"
+	url    = "dashboard/"
 	weight = 20
 
 [[menu.main]]
 	name   = "Nodes"
-	url    = "/post/nodes/"
+	url    = "nodes/"
 	weight = 30
 
 [[menu.main]]
 	name   = "Pools"
-	url    = "/post/pools/"
+	url    = "pools/"
 	weight = 40
 
 [[menu.main]]
 	name   = "Block Storage"
-	url    = "/post/block-storage/"
+	url    = "block-storage/"
 	weight = 50
 
 [[menu.main]]
 	name   = "Object Storage"
-	url    = "/post/object-storage/"
+	url    = "object-storage/"
 	weight = 60
 
 [[menu.main]]
 	name   = "Filesystem"
-	url    = "/post/filesystem/"
+	url    = "filesystem/"
 	weight = 70
 
 [[menu.main]]
 	name   = "Glossary"
-	url    = "/post/glossary/"
+	url    = "glossary/"
 	weight = 80
 
 [blackfriday]
