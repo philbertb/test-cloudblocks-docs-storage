@@ -14,3 +14,7 @@
 .palette-primary-teal .drawer .toc a:hover {
   color: #49A4B9;
 }
+
+.palette-primary-teal .article table th {
+    background: #09BAD3;
+}
