@@ -1,0 +1,3 @@
+[submodule "docs-auth"]
+	path = docs-auth
+	url = ../../docs-auth.git
