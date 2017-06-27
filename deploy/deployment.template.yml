@@ -1,0 +1,57 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: docs-storage
+  namespace: quinta
+  labels:
+    app: cb-storage
+    type: docs
+spec:
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 1313
+      targetPort: 1313
+      nodePort: 30065
+  selector:
+      app: cb-storage
+      type: docs
+
+---
+kind: Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  name: docs-storage
+  namespace: quinta
+  labels:
+    app: cb-storage
+    type: docs
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cb-storage
+      type: docs
+  template:
+    metadata:
+      name: cb-storage
+      labels:
+        app: cb-storage
+        type: docs
+    spec:
+      containers:
+        - name: cb-storage
+          image: ${DOCKER_IMAGE}:${IMAGE_TAG}
+          imagePullPolicy: Always
+          ports:
+            - name: caddy
+              containerPort: 1313
+              protocol: TCP
+          env:
+            - name: AUTH_CLIENT_DOMAIN
+              value: $DEPLOY_AUTH_CLIENT_DOMAIN
+            - name: AUTH_CLIENT_ID
+              value: $DEPLOY_AUTH_CLIENT_ID
+      imagePullSecrets:
+        - name: gcrsecret

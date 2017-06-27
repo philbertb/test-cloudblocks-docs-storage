@@ -1,11 +1,46 @@
-image: publysher/hugo
+image: docker:latest
 
-pages:
-  script:
-  - hugo
-  artifacts:
-    paths:
-    - public
+variables:
+  PROJECT: "amihan-cloudblocks"
+  IMAGE_NAME: "docs/storage"
+  IMAGE_TAG: "latest"
+  DOCKER_DRIVER: overlay2
+  DOCKER_REGISTRY: "asia.gcr.io"
+  DOCKER_IMAGE: ${DOCKER_REGISTRY}/${PROJECT}/${IMAGE_NAME}
+  DOCKER_HOST: tcp://localhost:2375
+  GIT_SUBMODULE_STRATEGY: recursive
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  services:
+    - docker:dind
   only:
-  - master
+    - master
+    - docker
+  tags:
+    - cb-docs
+    - cb-k8s-doc-runner
+    - cb-k8s-docs-runner
+  before_script:
+    # hack!
+    # because seems like setting DOCKER_AUTH_CONFIG alone doesn't work
+    # so we'll just create the auth config manually
+    - mkdir ~/.docker
+    - echo $DOCKER_AUTH_CONFIG > ~/.docker/config.json
+    - if [ ! -z ${CI_BUILD_TAG} ]; then IMAGE_TAG=${CI_BUILD_TAG}; fi
+  script:
+    - docker build -t ${DOCKER_IMAGE}:${IMAGE_TAG} .
+    - docker push ${DOCKER_IMAGE}:${IMAGE_TAG}
 
+deploy:
+  stage: deploy
+  image: lwolf/kubectl_deployer:latest
+  only:
+    - master
+    - docker
+  script:
+    - /bin/sh deploy/deploy.sh $CI_PROJECT_DIR/.kube gcrsecret quinta

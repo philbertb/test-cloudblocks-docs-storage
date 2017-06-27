@@ -1,0 +1,28 @@
+0.0.0.0:1313
+startup "./docs-auth --auth-client-domain={$AUTH_CLIENT_DOMAIN} --auth-client-id={$AUTH_CLIENT_ID}" &
+internal docs-auth
+
+rewrite {
+  if {?id_token} match \w+
+  if_op or
+  if {~token} not_match ^[a-zA-Z0-9\-_]+?\.[a-zA-Z0-9\-_]+?\.([a-zA-Z0-9\-_]+)?$
+  r (.*)
+  to /protect{1}
+}
+
+rewrite {
+  if {>Auth-Token} not_match ^[a-zA-Z0-9\-_]+?\.[a-zA-Z0-9\-_]+?\.([a-zA-Z0-9\-_]+)?$
+  if {~token} not_match ^[a-zA-Z0-9\-_]+?\.[a-zA-Z0-9\-_]+?\.([a-zA-Z0-9\-_]+)?$
+  r (.*)
+  to /verify{1}
+}
+
+proxy /protect 0.0.0.0:9000 {
+  without /protect
+  header_upstream Auth-Token {?id_token}
+}
+
+proxy /verify 0.0.0.0:9000 {
+  without /verify
+  header_upstream Auth-Token {~token}
+}
