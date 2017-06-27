@@ -53,5 +53,7 @@ spec:
               value: $DEPLOY_AUTH_CLIENT_DOMAIN
             - name: AUTH_CLIENT_ID
               value: $DEPLOY_AUTH_CLIENT_ID
+            - name: AUTH_INSECURE
+              value: $DEPLOY_AUTH_INSECURE
       imagePullSecrets:
         - name: gcrsecret
