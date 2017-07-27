@@ -9,10 +9,30 @@ variables:
   DOCKER_IMAGE: ${DOCKER_REGISTRY}/${PROJECT}/${IMAGE_NAME}
   DOCKER_HOST: tcp://localhost:2375
   GIT_SUBMODULE_STRATEGY: recursive
+  HUGO_VERSION: '0.20.7'
+
+
+before_script:
+  - apk update && apk add openssl ca-certificates
+  - wget -O hugo_${HUGO_VERSION}.tar.gz https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+  - tar xf hugo_${HUGO_VERSION}.tar.gz && mv hugo /usr/bin/hugo
+  - hugo version
+
 
 stages:
+  - hugo
   - build
   - deploy
+
+hugo:
+  stage: hugo
+  script:
+    - hugo
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
 
 build:
   stage: build
@@ -20,7 +40,6 @@ build:
     - docker:dind
   only:
     - master
-    - docker
   tags:
     - cb-docs
     - cb-k8s-doc-runner
@@ -41,6 +60,5 @@ deploy:
   image: lwolf/kubectl_deployer:latest
   only:
     - master
-    - docker
   script:
     - /bin/sh deploy/deploy.sh $CI_PROJECT_DIR/.kube gcrsecret quinta
