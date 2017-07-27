@@ -1,5 +1,5 @@
 0.0.0.0:1313
-startup "./docs-auth --auth-client-domain={$AUTH_CLIENT_DOMAIN} --auth-client-id={$AUTH_CLIENT_ID}" &
+startup "/etc/docs-auth --auth-client-domain={$AUTH_CLIENT_DOMAIN} --auth-client-id={$AUTH_CLIENT_ID}" &
 internal docs-auth
 
 rewrite {

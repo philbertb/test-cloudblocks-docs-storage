@@ -1,4 +1,4 @@
-baseURL = "https://amihan.gitlab.io/cloudblocks/docs/cloudblocks-storage-doc"
+baseURL = "/"
 languageCode = "en-us"
 title = "CloudBlocks Storage Platform Admin Guide"
 theme = "hugo-material-docs"
